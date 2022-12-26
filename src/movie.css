@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+}
+
+.back {
+  background-color: black;
+}
+
+.title {
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+}
+
+.rating {
+  font-size: large;
+  color: white;
+}
