@@ -8,7 +8,7 @@ const Main = () => {
       <h3>Menu</h3>
       <ul>
         <li>
-          <Link to="/todo">Todo list</Link>
+          <Link to={`${process.env.PUBLIC_URL}/todo`}>Todo list</Link>
         </li>
         <li>
           <Link to="/cointracker">Coin Tracker</Link>

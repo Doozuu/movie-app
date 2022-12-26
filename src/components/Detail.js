@@ -38,7 +38,12 @@ function Detail() {
           </ul>
           <h3>평점 : {movies.rating}</h3>
           <img src={movies.medium_cover_image}></img>
-          <p>요약 : {movies.description_intro}</p>
+          <p>
+            요약 :{" "}
+            {movies.description_intro.length > 235
+              ? `${movies.description_intro.slice(0, 300)}...`
+              : movies.description_intro}
+          </p>
         </div>
       )}
     </div>
